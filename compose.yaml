@@ -13,7 +13,7 @@ services:
 #      - "gostudio:/usr/local/share/groupoffice/go/modules/studio:cached"
       - ./src/studio:/usr/local/share/groupoffice/go/modules/studio
           #      Example for ssl
-      - "./config/ssl/groupoffice:/etc/ssl/groupoffice"
+     # - "./config/ssl/groupoffice:/etc/ssl/groupoffice"
     networks:
       - nginx-proxy-network
 
