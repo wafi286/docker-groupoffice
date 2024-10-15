@@ -15,7 +15,7 @@ services:
       - nginx-proxy-network
 
     #      Example for ssl
-#      - "./config/ssl/groupoffice:/etc/ssl/groupoffice"
+      - "./config/ssl/groupoffice:/etc/ssl/groupoffice"
 
     env_file:
       - ./db.env     
