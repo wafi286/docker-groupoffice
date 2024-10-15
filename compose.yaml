@@ -4,7 +4,6 @@ services:
     restart: always
     ports:
       - "9000:80"
-      - "9001:443"
     links:
       - db
     volumes:
